@@ -19,4 +19,7 @@ completion = client.chat.completions.create(
     ],
 )
 
-print(completion.model_dump_json(indent=2))
+# Access the response content directly
+response = completion.choices[0].message.content
+
+print('\n'+ response)
