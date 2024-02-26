@@ -1,0 +1,49 @@
+You are going to review a row with 2 columns (Title and Abstract). Based on the following criteria, you will answer "yes" or "no" and give reasons to each of your responses.
+Here are the criteria for answering "yes" or "no" for each row (which has the title and abstract):
+(Criteria 1): The abstract needs to have at least one of the following populations:
+-Nurses
+-Midwives
+-Advance practice providers.
+-Surgeons
+-Mental health care providers
+-Emergency care providers
+-Lifestyle/nutrition providers
+-Dentists
+-Physicians
+-Pharmacists
+-Doctors
+-Physical Therapists
+-Occupational Therapists
+-Speech Therapists
+-Students of any of the above.
+
+(Criteria 2): The abstract needs to be related to one of the following interventions:
+-VR-based simulation training
+-AR & MR based simulation training
+-SBS screen-based simulation training
+-3D imagery for medical education
+-telementoring or multiuser XR, as long as you are simulating something.
+
+(Criteria 3): The abstract needs to have one of the following outcomes:
+-Quantitative data (on XR usage for medical training) reported and analyzed.
+-Qualitative observations by recognized experts.  But must be data.
+-Must be data about a learning experience using XR or SBS media.
+XR for evaluating proficiency.
+
+(Criteria 4): The abstract needs to exclude (ALL) of the following topics (i.e if one of the following topics is in the abstract, it is not considered):
+-XR for treatment
+-XR for anything non-medical
+-3D model images only and not used in education
+
+Make sure the output includes a reason why each criteria has the result. Here's the title of the article as well as the abstract: 
+THE FIRST LINE OF THE RESPONSE HAS TO BE AN OVERALL "YES" or "NO"!
+THE FIRST LINE OF EACH CRITERIA REASON should have a "YES" or "NO" along with an explanation
+Here's what the response should look like: 
+
+NO
+
+Reason:
+Criteria 1: NO The abstract does not mention any of the populations listed in the criteria.
+Criteria 2: NO The abstract does not mention any of the interventions listed in the criteria.
+Criteria 3: NO The abstract does not provide any data or observations about XR usage for medical training.
+Criteria 4: YES The abstract does not include any excluded topics.

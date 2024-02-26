@@ -1,11 +1,13 @@
 from openai import AzureOpenAI
+import pandas as pd
+import csv
+import datetime
+import os
 azure_api_key = open("key.txt", "r").read().strip("\n")
 azure_api_endpoint = open("endpoint.txt", "r").read().strip("\n")
 client = AzureOpenAI(
-    # https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#rest-api-versioning
     api_version="2023-07-01-preview",
     api_key = azure_api_key,
-    # https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal#create-a-resource
     azure_endpoint=azure_api_endpoint,
 )
 
