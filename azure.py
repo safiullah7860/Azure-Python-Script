@@ -36,7 +36,7 @@ with open(csv_file_name, "w", newline="") as f:
         ChatGPTQuery = criteria_text + title + abstract
 
         # Get the full ChatGPT response
-        # to change temperture value, change the variable "repsonse" to the following: 
+        # change the variable "repsonse" to the following to change temperature
         '''response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo", messages=[{"role": "user", "content": ChatGPTQuery}], temperature = 0.1,
         ).choices[0].message.content'''
@@ -56,7 +56,7 @@ with open(csv_file_name, "w", newline="") as f:
         # Extract the first word of the response for Y/N column
         yn_value = 1 if response.split()[0].lower() == "yes" else 0
 
-        # Split .he response into lines and extract criteria values
+        # Split The response into lines and extract criteria values
         criteria_values = [""] * 4
         criteria_met_values = [0] * 4
 
