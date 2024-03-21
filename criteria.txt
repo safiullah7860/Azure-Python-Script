@@ -50,3 +50,5 @@ Criteria 1: YES The abstract does mention any of the populations listed in the c
 Criteria 2: YES The abstract does mention any of the interventions listed in the criteria.
 Criteria 3: YES The abstract does provide any data or observations about XR usage for medical training.
 Criteria 4: YES The abstract does NOT include any excluded topics.
+
+Here is the title and abstract, please answer accordingly:
