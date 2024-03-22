@@ -47,7 +47,7 @@ with open(csv_file_name, "w", newline="") as f:
             messages=[
                 {
                     "role": "user",
-                    "content": criteria_text,
+                    "content": ChatGPTQuery,
                 },
             ],
         )
