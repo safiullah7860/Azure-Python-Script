@@ -10,7 +10,7 @@ date_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")
 criteria_text = open("criteria.txt", "r").read().strip("\n")
 csv_file_name = f"output_{date_time}.csv"
 client = AzureOpenAI(
-    api_version="2023-07-01-preview",
+    api_version="2024-02-01",
     api_key = azure_api_key,
     azure_endpoint=azure_api_endpoint,
 )
