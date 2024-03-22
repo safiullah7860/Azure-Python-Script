@@ -33,7 +33,7 @@ with open(csv_file_name, "w", newline="") as f:
         abstract = row[1]["Abstract"]
 
         # Combine criteria, title of the article, and abstract into a single query
-        ChatGPTQuery = criteria_text + title + abstract
+        ChatGPTQuery = criteria_text + "\ntitle: " + title + "\nabstract:" + abstract
 
         # Get the full ChatGPT response
         # change the variable "repsonse" to the following to change temperature
@@ -43,7 +43,7 @@ with open(csv_file_name, "w", newline="") as f:
         # make sure to change the temperature to whatever you desire
 
         chatGPTresponse = client.chat.completions.create(
-            model="FirstModel",  # e.g. gpt-35-instant
+            model="gpt4",  # e.g. gpt-35-instant
             messages=[
                 {
                     "role": "user",
