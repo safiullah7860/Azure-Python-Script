@@ -1,14 +1,25 @@
+import sys
 from openai import AzureOpenAI
 import pandas as pd
 import csv
 import datetime
 import os
+import random
+import string
+
+# Check if a number is provided as a command-line argument
+if len(sys.argv) < 2:
+    print("Usage: python script.py <number>")
+    sys.exit(1)
+
+tempNumber = int(sys.argv[1]) * 0.1
+
 azure_api_key = open("key.txt", "r").read().strip("\n")
 azure_api_endpoint = open("endpoint.txt", "r").read().strip("\n")
 # Get the current date and time in a format that is compatible with the CSV file name
-date_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")
+date_time = ''.join(random.choices(string.ascii_letters + string.digits, k=10))
 criteria_text = open("criteria.txt", "r").read().strip("\n")
-csv_file_name = f"output_{date_time}.csv"
+csv_file_name = f"output_{date_time}temperature={tempNumber}.csv"
 client = AzureOpenAI(
     api_version="2024-02-01",
     api_key = azure_api_key,
@@ -43,13 +54,13 @@ with open(csv_file_name, "w", newline="") as f:
         # make sure to change the temperature to whatever you desire
 
         chatGPTresponse = client.chat.completions.create(
-            model="gpt4",  # e.g. gpt-35-instant
+            model="gpt4",
             messages=[
                 {
                     "role": "user",
                     "content": ChatGPTQuery,
                 },
-            ],
+            ], temperature=tempNumber,
         )
         response = chatGPTresponse.choices[0].message.content
 
