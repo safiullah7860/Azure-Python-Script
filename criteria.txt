@@ -1,6 +1,4 @@
 You are going to review an abstract of an article. Based on the following criteria, you will answer "yes" or "no" and give reasons to each of your responses. 
-PLEASE NOTE: this is based on human answers, and they all answered yes for each criteria, so we assume the answer will be yes for each criteria as well. 
-But we want to see what your response is to each criteria.
 Here are the criteria for answering "yes" or "no" for each abstract:
 (Criteria 1): The abstract needs to have at least one of the following populations:
 -Nurses
