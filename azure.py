@@ -32,7 +32,8 @@ with open(csv_file_name, "w", newline="") as f:
 
     # Write the header row
     writer.writerow(["Row Number", "Title", "Criteria 1", "Criteria 2", "Criteria 3", "Criteria 4",
-                     "Criteria 1 Met", "Criteria 2 Met", "Criteria 3 Met", "Criteria 4 Met", "Full Response", "Y/N"])
+                     "Criteria 5", "Criteria 6", "Criteria 1 Met", "Criteria 2 Met", "Criteria 3 Met",
+                     "Criteria 4 Met", "Criteria 5 Met", "Criteria 6 Met", "Full Response", "Y/N"])
 
     # Read the CSV file into a DataFrame (2-d, tabular data)
     df = pd.read_csv("input.csv")
@@ -68,22 +69,14 @@ with open(csv_file_name, "w", newline="") as f:
         yn_value = 1 if response.split()[0].lower() == "yes" else 0
 
         # Split The response into lines and extract criteria values
-        criteria_values = [""] * 4
-        criteria_met_values = [0] * 4
+        criteria_values = [""] * 6
+        criteria_met_values = [0] * 6
 
         for line in response.split("\n"):
-            if "Criteria 1:" in line:
-                criteria_values[0] = line.split(":")[1].strip()
-                criteria_met_values[0] = 1 if "YES" in criteria_values[0] else 0
-            elif "Criteria 2:" in line:
-                criteria_values[1] = line.split(":")[1].strip()
-                criteria_met_values[1] = 1 if "YES" in criteria_values[1] else 0
-            elif "Criteria 3:" in line:
-                criteria_values[2] = line.split(":")[1].strip()
-                criteria_met_values[2] = 1 if "YES" in criteria_values[2] else 0
-            elif "Criteria 4:" in line:
-                criteria_values[3] = line.split(":")[1].strip()
-                criteria_met_values[3] = 1 if "YES" in criteria_values[3] else 0
+            for i in range(1, 7):
+                if f"Criteria {i}:" in line:
+                    criteria_values[i-1] = line.split(":")[1].strip()
+                    criteria_met_values[i-1] = 1 if "YES" in criteria_values[i-1] else 0
 
         # Check if any criteria values are still empty (for the last line)
         criteria_values = [val if val else "Not specified" for val in criteria_values]

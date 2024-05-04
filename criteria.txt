@@ -1,41 +1,43 @@
-You are going to review an abstract of an article. Based on the following criteria, you will answer "yes" or "no" and give reasons to each of your responses. 
-PLEASE NOTE: this is based on human answers, and they all answered yes for each criteria, so we assume the answer will be yes for each criteria as well. 
-But we want to see what your response is to each criteria.
+You are going to review an abstract of an article. Based on the following criteria, you will answer "yes" or "no" and give reasons for each of your responses. 
 Here are the criteria for answering "yes" or "no" for each abstract:
-(Criteria 1): The abstract needs to have at least one of the following populations:
--Nurses
+(Criteria 1): The abstract needs to relate to at least one of the following populations:
+-Nurses 
 -Midwives
 -Advance practice providers.
 -Surgeons
--Mental health care providers
--Emergency care providers
+-Mental health care providers (e.g., Psychologist, Psychiatrist, Counselor) 
+-Emergency care providers (e.g, EMT, ER doctor, ER Nurse)
 -Lifestyle/nutrition providers
 -Dentists
--Physicians
+-Any Types of Physicians (e.g., Allergists/Immunologists, Anesthesiologists, Cardiologists, Colon and Rectal Surgeons, Critical Care Medicine Specialists, Dermatologists, Endocrinologists, Emergency Medicine Specialists, Family Physicians, Gastroenterologists, Geriatric Medicine Specialists, Hematologists, Hospice and Palliative Medicine Specialists, Infectious Disease Specialists, Internists, Medical Geneticists, Nephrologists, Neurologists, Obstetricians and Gynecologists, Oncologists, Ophthalmologists, Osteopaths, Otolaryngologists, Pathologists, Pediatricians, Physiatrists, Plastic Surgeons, Podiatrists, Preventive Medicine Specialists, Psychiatrists, Pulmonologists, Radiologists, Rheumatologists, Sleep Medicine Specialists, Sports Medicine Specialists, General Surgeons, Urologists.)
 -Pharmacists
 -Doctors
 -Physical Therapists
--Occupational Therapists
--Speech Therapists
+-Occupational Therapists (e.g., Pediatric Occupational Therapy, Neurological Occupational Therapy, Geriatric Occupational Therapy, Mental Health Occupational Therapy, Physical Rehabilitation Occupational Therapy, Occupational Therapy for Autism.)
+-Speech Therapists/ Speech-Language Pathologists
 -Students of any of the above.
 
 (Criteria 2): The abstract needs to be related to one of the following interventions:
--VR-based simulation training
--AR & MR based simulation training
--SBS screen-based simulation training
--3D imagery for medical education
--telementoring or multiuser XR, as long as you are simulating something.
+-VR (Virtual Reality)-based simulation training
+-AR (Augmented Reality) & MR (Mixed Reality) based simulation training
+-SBS (screen-based simulation) training
+-3D (3-dimensional) imagery for medical education
+-telementoring or multiuser XR(Extended Reality), as long as you are simulating something.
 
 (Criteria 3): The abstract needs to have one of the following outcomes:
--Quantitative data (on XR usage for medical training) reported and analyzed.
+-Quantitative data (on XR (Extended Reality) usage for medical training) reported and analyzed.
 -Qualitative observations by recognized experts.  But must be data.
--Must be data about a learning experience using XR or SBS media.
-XR for evaluating proficiency.
+-Must be data about a learning experience using XR (Extended Reality) or SBS (screen-based simulation) media.
+XR(Extended Reality) for evaluating proficiency.
 
-(Criteria 4): The abstract needs to exclude (ALL) of the following topics (i.e if one of the following topics is in the abstract, it is not considered):
--XR for treatment
--XR for anything non-medical
--3D model images only and not used in education
+(Criteria 4): The abstract needs to exclude the following topics in the abstract:
+-XR(Extended Reality) for treatment
+
+(Criteria 5): The abstract needs to exclude the following topics in the abstract:
+-XR(Extended Reality) for anything non-medical
+
+(Criteria 6): The abstract needs to exclude the following topics in the abstract:
+-3D(3-dimensional) model images only and not used in education
 
 Make sure the output includes a reason why each criteria has the result
 THE FIRST LINE OF EACH CRITERIA REASON should have a "YES" or "NO" along with an explanation
@@ -47,6 +49,8 @@ Reason:
 Criteria 1: YES The abstract mentions one of the populations listed in the criteria.
 Criteria 2: YES The abstract mentions one of the interventions listed in the criteria.
 Criteria 3: YES The abstract provides some data or observations about XR usage for medical training.
-Criteria 4: YES The abstract does NOT include any excluded topics.
+Criteria 4: YES The abstract does NOT include XR(Extended Reality) for treatment
+Criteria 5: YES The abstract does NOT include XR(Extended Reality) for anything non-medical
+Criteria 6: YES The abstract does NOT include 3D(3-dimensional) model images only
 
 Here is the title and abstract, please answer accordingly:
