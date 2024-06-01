@@ -17,10 +17,10 @@ tempNumber = round(int(sys.argv[1]) * 0.1, 2)
 azure_api_key = open("key.txt", "r").read().strip("\n")
 azure_api_endpoint = open("endpoint.txt", "r").read().strip("\n")
 # Get the current date and time in a format that is compatible with the CSV file name
-date_time = ''.join(random.choices(string.ascii_letters + string.digits, k=10))
+date_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")
 criteria_text = open("criteria.txt", "r").read().strip("\n")
 modelName = "FirstModel"
-csv_file_name = f"output_{date_time}  model:{modelName}  temperature={tempNumber}.csv"
+csv_file_name = f"output_{date_time} Model={modelName} Temp={tempNumber}.csv"
 client = AzureOpenAI(
     api_version="2024-02-01",
     api_key = azure_api_key,
