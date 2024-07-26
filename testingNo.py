@@ -5,9 +5,10 @@ temperatures = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
 
 # Accuracy for each model (Gp3.5, Gpt4, Gpt4_32)
 accuracy = {
-    'Gp3.5':   [83.94, 85.70, 84.26, 85.18, 85.35, 85.7, 85.64, 88.0, 86.60, 86.97, 87.85],  # Order adjusted to match temperatures
-    'Gpt4':    [80.69, 80.37, 80.56, 80.29, 80.23, 80.6, 80.67,      79.8, 81.15, 81.07, 80.86], # Order adjusted to match temperatures
-    'Gpt4_32': [80.78, 80.78, 80.62, 80.48, 80.37, 81.1, 80.51,      80.0, 81.01, 80.97, 80.99]  # Order adjusted to match temperatures
+    'Gp3.5':   [83.94, 85.70, 84.26, 85.18, 85.35, 85.70, 85.64, 88.00, 86.60, 86.97, 87.85],  # Order adjusted to match temperatures
+    'Gpt4':    [80.69, 80.37, 80.56, 80.29, 80.23, 80.60, 80.67, 79.80, 81.15, 81.07, 80.86], # Order adjusted to match temperatures
+    'Gpt4_32': [80.78, 80.78, 80.62, 80.48, 80.37, 81.10, 80.51, 80.00, 81.01, 80.97, 80.99],  # Order adjusted to match temperatures
+    'Gpt4-o':  [90.83, 91.14, 90.83, 90.44, 90.99, 90.83, 90.44, 91.54, 90.91, 90.83, 91.30]
 }
 
 # Create the plot
