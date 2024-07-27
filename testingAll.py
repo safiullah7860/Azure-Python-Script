@@ -13,7 +13,7 @@ accuracy = {
 
 # Create the plot
 plt.figure(figsize=(12, 8))
-plt.title("GPT Models' ASverage Performance", fontsize=16)
+plt.title("GPT Models' Average Performance", fontsize=16)
 plt.xlabel("Temperature", fontsize=14)
 plt.ylabel("Accuracy (%)", fontsize=14)
 
