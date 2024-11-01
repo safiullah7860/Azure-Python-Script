@@ -1,9 +1,9 @@
-You are going to review an abstract of an article. Based on the following criteria, you will answer "yes" or "no" and give reasons for each of your responses. 
-Here are the criteria for answering "yes" or "no" for each abstract:
-(Criteria 1): The abstract needs to relate to at least one of the following populations:
+You are going to review an article and answer questions based on it. 
+Here are the criteria for each article:
+(Question 1): Which of the following populations does the article include?
 -Nurses 
 -Midwives
--Advance practice providers.
+-Advanced practice providers.
 -Surgeons
 -Mental health care providers (e.g., Psychologist, Psychiatrist, Counselor) 
 -Emergency care providers (e.g, EMT, ER doctor, ER Nurse)
@@ -17,40 +17,38 @@ Here are the criteria for answering "yes" or "no" for each abstract:
 -Speech Therapists/ Speech-Language Pathologists
 -Students of any of the above.
 
-(Criteria 2): The abstract needs to be related to one of the following interventions:
+(Question 2): Which of the following technologies is the article related to?
 -VR (Virtual Reality)-based simulation training
 -AR (Augmented Reality) & MR (Mixed Reality) based simulation training
 -SBS (screen-based simulation) training
 -3D (3-dimensional) imagery for medical education
 -telementoring or multiuser XR(Extended Reality), as long as you are simulating something.
 
-(Criteria 3): The abstract needs to have one of the following outcomes:
+(Question 3): Which of the following outcomes does the article have?
 -Quantitative data (on XR (Extended Reality) usage for medical training) reported and analyzed.
--Qualitative observations by recognized experts.  But must be data.
+-Qualitative observations by recognized experts. (But it must be data.)
 -Must be data about a learning experience using XR (Extended Reality) or SBS (screen-based simulation) media.
-XR(Extended Reality) for evaluating proficiency.
+-XR(Extended Reality) for evaluating proficiency.
 
-(Criteria 4): The abstract needs to exclude the following topics in the abstract:
--XR(Extended Reality) for treatment
+(Question 4)
+What type of patient simulation examples are in this article, if any? 
+For example, ANAESTHETICS, CORE MEDICINE, SURGERY, FOUNDATION, GENERAL PRACTICE, PAEDIATRICS, PSYCHIATRY, EMERGENCY MEDICINE, or more. 
 
-(Criteria 5): The abstract needs to exclude the following topics in the abstract:
--XR(Extended Reality) for anything non-medical
+(Question 5)
+Which body/organ system, if any, is the article related to? 
+For example, Integumentary, System Skeletal, System Muscular, System,  Nervous System, Cardiovascular System,  Lymphatic System, Respiratory System, Digestive System,  Urinary System, Endocrine System, Reproductive System, or more
 
-(Criteria 6): The abstract needs to exclude the following topics in the abstract:
--3D(3-dimensional) model images only and not used in education
 
 Make sure the output includes a reason why each criteria has the result
-THE FIRST LINE OF EACH CRITERIA REASON should have a "YES" or "NO" along with an explanation
+THE FIRST LINE OF EACH CRITERIA REASON should have a ONE WORD response along with an explanation
 Here's what the response should look like: 
 
-YES
 
-Reason:
-Criteria 1: YES The abstract mentions one of the populations listed in the criteria.
-Criteria 2: YES The abstract mentions one of the interventions listed in the criteria.
-Criteria 3: YES The abstract provides some data or observations about XR usage for medical training.
-Criteria 4: YES The abstract does NOT include XR(Extended Reality) for treatment
-Criteria 5: YES The abstract does NOT include XR(Extended Reality) for anything non-medical
-Criteria 6: YES The abstract does NOT include 3D(3-dimensional) model images only
+Answer 1: Nurses - (along with explanation) 
+Answer 2: VR - based simulation training (along with explanation)
+Answer 3: XR - for evaluating proficiency (along with explanation)
+Answer 4: Core Medicine - (along with explanation)
+Answer 5: Endocrine System - (along with explanation)
 
-Here is the title and abstract, please answer accordingly:
+Now here is the article, please answer accordingly:
+
