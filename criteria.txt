@@ -1,6 +1,7 @@
 You are going to review an article and answer questions based on it. 
 Here are the criteria for each article:
-(Question 1): Which of the following populations does the article include?
+(Question 1):
+Which of the following populations does the article include?
 -Nurses 
 -Midwives
 -Advanced practice providers.
@@ -17,18 +18,20 @@ Here are the criteria for each article:
 -Speech Therapists/ Speech-Language Pathologists
 -Students of any of the above.
 
-(Question 2): Which of the following technologies is the article related to?
+(Question 2):
+Which of the following technologies is the article related to?
 -VR (Virtual Reality)-based simulation training
 -AR (Augmented Reality) & MR (Mixed Reality) based simulation training
 -SBS (screen-based simulation) training
 -3D (3-dimensional) imagery for medical education
 -telementoring or multiuser XR(Extended Reality), as long as you are simulating something.
 
-(Question 3): Which of the following outcomes does the article have?
--Quantitative data (on XR (Extended Reality) usage for medical training) reported and analyzed.
--Qualitative observations by recognized experts. (But it must be data.)
--Must be data about a learning experience using XR (Extended Reality) or SBS (screen-based simulation) media.
--XR(Extended Reality) for evaluating proficiency.
+(Question 3):
+Which of the following does the article have?
+-Quantitative data (on XR (Extended Reality) usage for medical training) reported and analyzed. If applicable, give the number of participants in the study. 
+-Qualitative observations by recognized experts. (But it must be data). If applicable, give the number of participants in the study.
+-Must be data about a learning experience for evaluating proficiency using XR (Extended Reality) or SBS (screen-based simulation) media.
+
 
 (Question 4)
 What type of patient simulation examples are in this article, if any? 
@@ -38,8 +41,16 @@ For example, ANAESTHETICS, CORE MEDICINE, SURGERY, FOUNDATION, GENERAL PRACTICE,
 Which body/organ system, if any, is the article related to? 
 For example, Integumentary, System Skeletal, System Muscular, System,  Nervous System, Cardiovascular System,  Lymphatic System, Respiratory System, Digestive System,  Urinary System, Endocrine System, Reproductive System, or more
 
+(Question 6)
+What was measured in the article? 
+For example, learning, experiences, confidence, usefulness, performing procedures, performance, technology acceptance, perceptions, duration, validating disability, scores, time, effectiveness, immersive haptic feedback, behaviors, feelings, perceived benefits, effectiveness of training, workload parameters, or more
 
-Make sure the output includes a reason why each criteria has the result
+(Question 7)
+In one sentence, summarize the result of the study, and tell me if it was significant or not (if it applies).
+
+
+
+Make sure the output includes reasoning behind your responses to the 7 questions
 THE FIRST LINE OF EACH CRITERIA REASON should have a ONE WORD response along with an explanation
 Here's what the response should look like: 
 
@@ -49,6 +60,9 @@ Answer 2: VR - based simulation training (along with explanation)
 Answer 3: XR - for evaluating proficiency (along with explanation)
 Answer 4: Core Medicine - (along with explanation)
 Answer 5: Endocrine System - (along with explanation)
+Answer 6: immersive haptic feedback - (along with explanation)
+Answer 7: Not significant - (along with explanation)
+
 
 Now here is the article, please answer accordingly:
 
