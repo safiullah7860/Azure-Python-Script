@@ -42,15 +42,17 @@ Which body/organ system, if any, is the article related to?
 For example, Integumentary, System Skeletal, System Muscular, System,  Nervous System, Cardiovascular System,  Lymphatic System, Respiratory System, Digestive System,  Urinary System, Endocrine System, Reproductive System, or more
 
 (Question 6)
-What was measured in the article? 
-For example, learning, experiences, confidence, usefulness, performing procedures, performance, technology acceptance, perceptions, duration, validating disability, scores, time, effectiveness, immersive haptic feedback, behaviors, feelings, perceived benefits, effectiveness of training, workload parameters, or more
+What was measured in the article? If applicable, were they about technology or humans?
+For example, learning, experiences, confidence, usefulness, performing procedures, performance (be specific), technology acceptance, perceptions (be specific), duration, validating disability, scores, time, effectiveness, immersive haptic feedback, behaviors, feelings, perceived benefits, effectiveness of training, workload parameters, or more
 
 (Question 7)
 In one sentence, summarize the result of the study, and tell me if it was significant or not (if it applies).
 
+(Question 8)
+If applicable, what is the number of participants?
 
 
-Make sure the output includes reasoning behind your responses to the 7 questions
+Make sure the output includes reasoning behind your responses to the 8 questions
 THE FIRST LINE OF EACH CRITERIA REASON should have a ONE WORD response along with an explanation
 Here's what the response should look like: 
 
@@ -60,8 +62,9 @@ Answer 2: VR - based simulation training (along with explanation)
 Answer 3: XR - for evaluating proficiency (along with explanation)
 Answer 4: Core Medicine - (along with explanation)
 Answer 5: Endocrine System - (along with explanation)
-Answer 6: immersive haptic feedback - (along with explanation)
+Answer 6: immersive haptic feedback which involved humans- (along with explanation)
 Answer 7: Not significant - (along with explanation)
+Answer 8: Not applicable
 
 
 Now here is the article, please answer accordingly:
