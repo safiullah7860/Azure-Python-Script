@@ -27,45 +27,47 @@ Which of the following technologies is the article related to?
 -telementoring or multiuser XR(Extended Reality), as long as you are simulating something.
 
 (Question 3):
-Which of the following does the article have?
--Quantitative data (on XR (Extended Reality) usage for medical training) reported and analyzed. If applicable, give the number of participants in the study. 
--Qualitative observations by recognized experts. (But it must be data). If applicable, give the number of participants in the study.
--Must be data about a learning experience for evaluating proficiency using XR (Extended Reality) or SBS (screen-based simulation) media.
+Is the data Quantitative or Qualitative or both?
 
 
 (Question 4)
-What type of patient simulation examples are in this article, if any? 
-For example, ANAESTHETICS, CORE MEDICINE, SURGERY, FOUNDATION, GENERAL PRACTICE, PAEDIATRICS, PSYCHIATRY, EMERGENCY MEDICINE, or more. 
+What type of patient simulation clinical topics examples are in this article, if any? 
+For example, ANESTHESIOLOGY, CORE MEDICINE, SURGERY, FOUNDATION, GENERAL PRACTICE, PAEDIATRICS, PSYCHIATRY, EMERGENCY MEDICINE, PHYSIOTHERAPY, GERONTOLOGY, ONCOLOGY, NURSING, PHARMACY, DENTISTRY, EMERGENCY MEDICINE, AUDIOLOGY, OCCUPATIONAL THERAPY, SUBSTANCE ABUSE COUNSELING, MIDWIFERY, PSYCHOLOGY, PSYCHIATRY, DIETICIAN, PODIATRY, OPHTHALMOLOGY, or more
 
 (Question 5)
 Which body/organ system, if any, is the article related to? 
-For example, Integumentary, System Skeletal, System Muscular, System,  Nervous System, Cardiovascular System,  Lymphatic System, Respiratory System, Digestive System,  Urinary System, Endocrine System, Reproductive System, or more
+For example, Integumentary System, Skeletal System , Muscular System , Nervous System, Cardiovascular System (or Circulatory System), Lymphatic System, Respiratory System, Urinary System, Endocrine System, Reproductive System, Gastrointestinal System (or Digestive System), Immune System, or more.
 
 (Question 6)
-What was measured in the article? If applicable, were they about technology or humans?
-For example, learning, experiences, confidence, usefulness, performing procedures, performance (be specific), technology acceptance, perceptions (be specific), duration, validating disability, scores, time, effectiveness, immersive haptic feedback, behaviors, feelings, perceived benefits, effectiveness of training, workload parameters, or more
+What are the learning outcomes for the healthcare simulation?
+For example: Clinical Skills (e.g., diagnostic reasoning, nursing, assessment, accuracy), Decision making (e.g., Judgement under pressure, best practices, prioritizing, delegation), Communication skills, Interprofessional Education (IPE), Confidence (e.g., self-efficacy, self-reliance), Error Reduction (e.g., patient safety), Exposure to uncommon events, or more.
 
 (Question 7)
-In one sentence, summarize the result of the study, and tell me if it was significant or not (if it applies).
+What was measured in the article? If applicable, were the measures about technology or humans?
+For example, learning, experiences, confidence, usefulness, performing procedures, performance (be specific), technology acceptance, perceptions (be specific), duration, validating disability, scores, time, effectiveness, immersive haptic feedback, behaviors, feelings, perceived benefits, effectiveness of training, workload parameters, or more
+
 
 (Question 8)
+In one sentence, summarize the result of the study, and tell me if it was significant or not (if it applies).
+
+(Question 9)
 If applicable, what is the number of participants?
 
 
-Make sure the output includes reasoning behind your responses to the 8 questions
+Make sure the output includes reasoning behind your responses to the 7 questions
 THE FIRST LINE OF EACH CRITERIA REASON should have a ONE WORD response along with an explanation
 Here's what the response should look like: 
 
 
 Answer 1: Nurses - (along with explanation) 
 Answer 2: VR - based simulation training (along with explanation)
-Answer 3: XR - for evaluating proficiency (along with explanation)
+Answer 3: Quantitative - (along with explanation)
 Answer 4: Core Medicine - (along with explanation)
 Answer 5: Endocrine System - (along with explanation)
-Answer 6: immersive haptic feedback which involved humans- (along with explanation)
-Answer 7: Not significant - (along with explanation)
-Answer 8: Not applicable
+Answer 6: Clinical Skills - diagnostic reasoning (along with explanation)
+Answer 7: Performance of participants in terms of time
+Answer 8: Not significant - (along with explanation)
+Answer 9: 30 participants 
 
 
 Now here is the article, please answer accordingly:
-

@@ -30,7 +30,7 @@ client = AzureOpenAI(
 
 with open(csv_file_name, "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
-    writer.writerow(["Row Number", "Title", "Question 1", "Question 2", "Question 3", "Question 4", "Question 5", "Question 6", "Question 7", "Question 8", "Full Response"])
+    writer.writerow(["Row Number", "Title", "Question 1", "Question 2", "Question 3", "Question 4", "Question 5", "Question 6", "Question 7", "Question 8", "Question 9", "Full Response"])
 
     row_number = 1
     for filename in os.listdir(folder_path):
@@ -50,9 +50,9 @@ with open(csv_file_name, "w", newline="", encoding="utf-8") as f:
                 )
                 response = chatGPTresponse.choices[0].message.content
 
-                question_responses = [""] * 8
+                question_responses = [""] * 9
                 for line in response.split("\n"):
-                    for i in range(1, 9):
+                    for i in range(1, 10):
                         if f"Answer {i}:" in line:
                             question_responses[i-1] = line.split(":")[1].strip()
                 question_responses = [val if val else "Not specified" for val in question_responses]
