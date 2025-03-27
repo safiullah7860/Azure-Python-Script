@@ -32,19 +32,19 @@ Is the data Quantitative or Qualitative or both?
 
 (Question 4)
 What type of patient simulation clinical topics examples are in this article, if any? 
-For example, ANESTHESIOLOGY, CORE MEDICINE, SURGERY, FOUNDATION, GENERAL PRACTICE, PAEDIATRICS, PSYCHIATRY, EMERGENCY MEDICINE, PHYSIOTHERAPY, GERONTOLOGY, ONCOLOGY, NURSING, PHARMACY, DENTISTRY, EMERGENCY MEDICINE, AUDIOLOGY, OCCUPATIONAL THERAPY, SUBSTANCE ABUSE COUNSELING, MIDWIFERY, PSYCHOLOGY, PSYCHIATRY, DIETICIAN, PODIATRY, OPHTHALMOLOGY, or more
+For example, ANESTHESIOLOGY, AUDIOLOGY, CARDIOLOGY, CORE MEDICINE, DENTISTRY, DERMATOLOGY, DIETICIAN, EMERGENCY MEDICINE, FOUNDATION, GENERAL PRACTICE, GERONTOLOGY, MIDWIFERY, NEUROLOGY, NURSING, OBSTETRICS, OCCUPATIONAL THERAPY, ONCOLOGY, OPHTHALMOLOGY, ORTHOPEDICS, PATHOLOGY, PEDIATRICS, PHARMACY, PHYSIOTHERAPY, PODIATRY, PSYCHIATRY, PSYCHOLOGY, RADIOLOGY, SLEEP MEDICINE, SPORTSMEDICINE, SUBSTANCE ABUSE COUNSELING, SURGERY, UROLOGY, or more
 
 (Question 5)
 Which body/organ system, if any, is the article related to? 
-For example, Integumentary System, Skeletal System , Muscular System , Nervous System, Cardiovascular System (or Circulatory System), Lymphatic System, Respiratory System, Urinary System, Endocrine System, Reproductive System, Gastrointestinal System (or Digestive System), Immune System, or more.
+For example, Integumentary System, Skeletal System , Muscular System , Nervous System, Cardiovascular System, Circulatory System, Lymphatic System, Respiratory System, Urinary System, Endocrine System, Reproductive System, Gastrointestinal System, Digestive System, Immune System, or more.
 
 (Question 6)
 What are the learning outcomes for the healthcare simulation?
-For example: Clinical Skills (e.g., diagnostic reasoning, nursing, assessment, accuracy), Decision making (e.g., Judgement under pressure, best practices, prioritizing, delegation), Communication skills, Interprofessional Education (IPE), Confidence (e.g., self-efficacy, self-reliance), Error Reduction (e.g., patient safety), Exposure to uncommon events, or more.
+For example: Clinical Skills, Diagnostic reasoning, Nursing skills, Assessment, Accuracy, Decision making , Judgement under pressure, best practices, prioritizing, Delegation, Communication skills, Interprofessional Education (IPE), Confidence,Self-efficacy, Self-reliance, Error Reduction, Patient safety, Exposure to uncommon events, or more.
 
 (Question 7)
-What was measured in the article? If applicable, were the measures about technology or humans?
-For example, learning, experiences, confidence, usefulness, performing procedures, performance (be specific), technology acceptance, perceptions (be specific), duration, validating disability, scores, time, effectiveness, immersive haptic feedback, behaviors, feelings, perceived benefits, effectiveness of training, workload parameters, or more
+What was measured in the article? If applicable, were the measures about technology or humans? Be specific in your answers:
+Learning, experiences, confidence, usefulness, performing procedures, performance, technology acceptance, perceptions of, duration, validating disability, scores, time, effectiveness, immersive haptic feedback, behaviors, feelings, perceived benefits, effectiveness of training, workload parameters, or more
 
 
 (Question 8)
