@@ -10,48 +10,60 @@ Which of the following populations does the article include?
 -Emergency care providers (e.g, EMT, ER doctor, ER Nurse)
 -Lifestyle/nutrition providers
 -Dentists
--Any Types of Physicians (e.g., Allergists/Immunologists, Anesthesiologists, Cardiologists, Colon and Rectal Surgeons, Critical Care Medicine Specialists, Dermatologists, Endocrinologists, Emergency Medicine Specialists, Family Physicians, Gastroenterologists, Geriatric Medicine Specialists, Hematologists, Hospice and Palliative Medicine Specialists, Infectious Disease Specialists, Internists, Medical Geneticists, Nephrologists, Neurologists, Obstetricians and Gynecologists, Oncologists, Ophthalmologists, Osteopaths, Otolaryngologists, Pathologists, Pediatricians, Physiatrists, Plastic Surgeons, Podiatrists, Preventive Medicine Specialists, Psychiatrists, Pulmonologists, Radiologists, Rheumatologists, Sleep Medicine Specialists, Sports Medicine Specialists, General Surgeons, Urologists.)
 -Pharmacists
 -Doctors
 -Physical Therapists
 -Occupational Therapists (e.g., Pediatric Occupational Therapy, Neurological Occupational Therapy, Geriatric Occupational Therapy, Mental Health Occupational Therapy, Physical Rehabilitation Occupational Therapy, Occupational Therapy for Autism.)
 -Speech Therapists/ Speech-Language Pathologists
--Students of any of the above.
-
-(Question 2):
-Which of the following technologies is the article related to?
--VR (Virtual Reality)-based simulation training
--AR (Augmented Reality) & MR (Mixed Reality) based simulation training
--SBS (screen-based simulation) training
--3D (3-dimensional) imagery for medical education
--telementoring or multiuser XR(Extended Reality), as long as you are simulating something.
-
-(Question 3):
-Is the data Quantitative or Qualitative or both?
-
-
-(Question 4)
-What type of patient simulation clinical topics examples are in this article, if any? 
-For example, ANESTHESIOLOGY, AUDIOLOGY, CARDIOLOGY, CORE MEDICINE, DENTISTRY, DERMATOLOGY, DIETICIAN, EMERGENCY MEDICINE, FOUNDATION, GENERAL PRACTICE, GERONTOLOGY, MIDWIFERY, NEUROLOGY, NURSING, OBSTETRICS, OCCUPATIONAL THERAPY, ONCOLOGY, OPHTHALMOLOGY, ORTHOPEDICS, PATHOLOGY, PEDIATRICS, PHARMACY, PHYSIOTHERAPY, PODIATRY, PSYCHIATRY, PSYCHOLOGY, RADIOLOGY, SLEEP MEDICINE, SPORTSMEDICINE, SUBSTANCE ABUSE COUNSELING, SURGERY, UROLOGY, or more
-
-(Question 5)
-Which body/organ system, if any, is the article related to? 
-For example, Integumentary System, Skeletal System , Muscular System , Nervous System, Cardiovascular System, Circulatory System, Lymphatic System, Respiratory System, Urinary System, Endocrine System, Reproductive System, Gastrointestinal System, Digestive System, Immune System, or more.
+- Nursing students, dental students, medical students, PT students, pharmacy students, speech therapist students. 
+-Any Types of Physicians. For example:
+Allergists/Immunologists
+Anesthesiologists
+Cardiologists
+Colon and Rectal Surgeons
+Critical Care Medicine Specialists
+Dermatologists
+Endocrinologists
+Emergency Medicine Specialists
+Family Physicians
+Gastroenterologists
+Geriatric Medicine Specialists
+Hematologists
+Hospice and Palliative Medicine Specialists
+Infectious Disease Specialists
+Internists
+Medical Geneticists
+Nephrologists
+Neurologists
+Obstetricians and Gynecologists
+Oncologists
+Ophthalmologists
+Osteopaths
+Otolaryngologists
+Pathologists
+Pediatricians
+Physiatrists
+Plastic Surgeons
+Podiatrists
+Preventive Medicine Specialists
+Psychiatrists
+Pulmonologists
+Radiologists
+Rheumatologists
+Sleep Medicine Specialists
+Sports Medicine Specialists
+General Surgeons
+Urologists
 
 (Question 6)
 What are the learning outcomes for the healthcare simulation?
-For example: Clinical Skills, Diagnostic reasoning, Nursing skills, Assessment, Accuracy, Decision making , Judgement under pressure, best practices, prioritizing, Delegation, Communication skills, Interprofessional Education (IPE), Confidence,Self-efficacy, Self-reliance, Error Reduction, Patient safety, Exposure to uncommon events, or more.
+For example: Diagnostic reasoning, Nursing skills, Assessment, Accuracy, Decision making , Judgement under pressure, best practices, prioritizing, Delegation, Communication skills, Interprofessional Education (IPE), Confidence,Self-efficacy, Self-reliance, Error Reduction, Patient safety, Exposure to uncommon events, or more.
 
 (Question 7)
 What was measured in the article? If applicable, were the measures about technology or humans? Be specific in your answers:
-Learning, experiences, confidence, usefulness, performing procedures, performance, technology acceptance, perceptions of, duration, validating disability, scores, time, effectiveness, immersive haptic feedback, behaviors, feelings, perceived benefits, effectiveness of training, workload parameters, or more
+Learning, experiences, confidence, usefulness, performing procedures, technology acceptance, perceptions of, duration, validating disability, scores, time, effectiveness, immersive haptic feedback, behaviors, feelings, perceived benefits, effectiveness of training, workload parameters, or more
 
 
-(Question 8)
-In one sentence, summarize the result of the study, and tell me if it was significant or not (if it applies).
-
-(Question 9)
-If applicable, what is the number of participants?
 
 
 Make sure the output includes reasoning behind your responses to the 7 questions
@@ -60,14 +72,10 @@ Here's what the response should look like:
 
 
 Answer 1: Nurses - (along with explanation) 
-Answer 2: VR - based simulation training (along with explanation)
-Answer 3: Quantitative - (along with explanation)
-Answer 4: Core Medicine - (along with explanation)
-Answer 5: Endocrine System - (along with explanation)
-Answer 6: Clinical Skills - diagnostic reasoning (along with explanation)
-Answer 7: Performance of participants in terms of time
-Answer 8: Not significant - (along with explanation)
-Answer 9: 30 participants 
+Answer 6: Diagnostic reasoning -(along with explanation)
+Answer 7: Performing Procedures - (along with explanation)
 
 
-Now here is the article, please answer accordingly:
+Now here is the title and article, please answer accordingly:
+
+
