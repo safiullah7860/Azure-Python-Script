@@ -2,57 +2,7 @@ You are going to review an article and answer questions based on it.
 Here are the criteria for each article:
 (Question 1):
 Which of the following populations does the article include?
--Nurses 
--Midwives
--Advanced practice providers.
--Surgeons
--Mental health care providers (e.g., Psychologist, Psychiatrist, Counselor) 
--Emergency care providers (e.g, EMT, ER doctor, ER Nurse)
--Lifestyle/nutrition providers
--Dentists
--Pharmacists
--Physical Therapists
--Occupational Therapists (e.g., Pediatric Occupational Therapy, Neurological Occupational Therapy, Geriatric Occupational Therapy, Mental Health Occupational Therapy, Physical Rehabilitation Occupational Therapy, Occupational Therapy for Autism.)
--Speech Therapists/ Speech-Language Pathologists
-- Nursing students, dental students, medical students, PT students, pharmacy students, speech therapist students. 
--Any Types of Physicians or Doctors. For example:
-Allergists/Immunologists
-Anesthesiologists
-Cardiologists
-Colon and Rectal Surgeons
-Critical Care Medicine Specialists
-Dermatologists
-Endocrinologists
-Emergency Medicine Specialists
-Family Physicians
-Gastroenterologists
-Geriatric Medicine Specialists
-Hematologists
-Hospice and Palliative Medicine Specialists
-Infectious Disease Specialists
-Internists
-Medical Geneticists
-Nephrologists
-Neurologists
-Obstetricians and Gynecologists
-Oncologists
-Ophthalmologists
-Osteopaths
-Otolaryngologists
-Pathologists
-Pediatricians
-Physiatrists
-Plastic Surgeons
-Podiatrists
-Preventive Medicine Specialists
-Psychiatrists
-Pulmonologists
-Radiologists
-Rheumatologists
-Sleep Medicine Specialists
-Sports Medicine Specialists
-General Surgeons
-Urologists
+Nurses, Midwives, Advanced practice providers, Surgeons, Mental health care providers (e.g., Psychologist, Psychiatrist, Counselor), Emergency care providers (e.g., EMT, ER doctor, ER Nurse), Lifestyle/nutrition providers, Dentists, Pharmacists, Physical Therapists, Occupational Therapists (e.g., Pediatric Occupational Therapy, Neurological Occupational Therapy, Geriatric Occupational Therapy, Mental Health Occupational Therapy, Physical Rehabilitation Occupational Therapy, Occupational Therapy for Autism), Speech Therapists/Speech-Language Pathologists, Nursing students, dental students, medical students, PT students, pharmacy students, speech therapist students, Allergists/Immunologists, Anesthesiologists, Cardiologists, Colon and Rectal Surgeons, Critical Care Medicine Specialists, Dermatologists, Endocrinologists, Emergency Medicine Specialists, Family Physicians, Gastroenterologists, Geriatric Medicine Specialists, Hematologists, Hospice and Palliative Medicine Specialists, Infectious Disease Specialists, Internists, Medical Geneticists, Nephrologists, Neurologists, Obstetricians and Gynecologists, Oncologists, Ophthalmologists, Osteopaths, Otolaryngologists, Pathologists, Pediatricians, Physiatrists, Plastic Surgeons, Podiatrists, Preventive Medicine Specialists, Psychiatrists, Pulmonologists, Radiologists, Rheumatologists, Sleep Medicine Specialists, Sports Medicine Specialists, General Surgeons, Urologists, or other doctors or physicians.
 
 
 (Question 2):
@@ -77,7 +27,7 @@ For example, Integumentary System, Skeletal System , Muscular System , Nervous S
 
 (Question 6)
 What are the learning outcomes for the healthcare simulation?
-For example: Diagnostic reasoning, Nursing skills, Surgical skills, psychomotor skills, Assessment, Accuracy, Decision making , Judgement under pressure, best practices, prioritizing, Delegation, Communication skills, Interprofessional Education (IPE), Confidence,Self-efficacy, Self-reliance, Error Reduction, Patient safety, Provider safety, Exposure to uncommon events, or more.
+For example: Diagnostic reasoning, Nursing skills, Surgical Standard Precautions, Surgical Implementation, Surgical Suturing and Knot Tying, Surgical Wound and Tissue Handling, Surgical Wound Care,Surgical Techniques (i.e Incisions Debridement and Closure), Surgical Anastomosis, Surgical Haemostasis, Surgical Fine Tissue Handling  Surgical Specialize Surgical Procedures, Surgical Perioperative Care, Surgical Medical Knowledge, Surgical Communication Skills, Surgical Leadership and Teamwork, Surgical Adaptability, psychomotor skills, Assessment, Accuracy, Decision making, Judgement under pressure, best practices, prioritizing, Delegation, Communication skills, Interprofessional Education (IPE), Confidence,Self-efficacy, Self-reliance, Error Reduction, Patient safety, Provider safety, Exposure to uncommon events, or more.
 
 (Question 7)
 What was measured in the article? If applicable, were the measures about technology or humans? Be specific in your answers:
