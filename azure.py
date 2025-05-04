@@ -1,4 +1,4 @@
-import sys
+import re
 from openai import AzureOpenAI
 import pandas as pd
 import csv
@@ -15,7 +15,7 @@ def pdf_to_text(pdf_path):
             abstractText += page.extract_text()
     return abstractText
 
-folder_path = "full articles"
+folder_path = "new"
 azure_api_key = open("key.txt", "r").read().strip("\n")
 azure_api_endpoint = open("endpoint.txt", "r").read().strip("\n")
 date_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")
@@ -53,8 +53,12 @@ with open(csv_file_name, "w", newline="", encoding="utf-8") as f:
                 question_responses = [""] * 9
                 for line in response.split("\n"):
                     for i in range(1, 10):
-                        if f"Answer {i}:" in line:
-                            question_responses[i-1] = line.split(":")[1].strip()
+                        # Use regex to match patterns like "**Answer 8**:" or "Answer 8:"
+                        match = re.search(rf"\bAnswer {i}\b.*?:", line, re.IGNORECASE)
+                        if match:
+                            # Extract the part after "Answer {i}:"
+                            answer = line.split(match.group(0))[1].strip()
+                            question_responses[i-1] = answer
                 question_responses = [val if val else "Not specified" for val in question_responses]
 
                 writer.writerow([row_number, title] + question_responses + [response])
