@@ -15,7 +15,7 @@ def pdf_to_text(pdf_path):
             abstractText += page.extract_text()
     return abstractText
 
-folder_path = "new"
+folder_path = "full articles"
 azure_api_key = open("key.txt", "r").read().strip("\n")
 azure_api_endpoint = open("endpoint.txt", "r").read().strip("\n")
 date_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")
