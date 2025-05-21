@@ -30,7 +30,7 @@ client = AzureOpenAI(
 
 with open(csv_file_name, "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
-    writer.writerow(["Row Number", "Title", "Question 1", "Question 2", "Question 3", "Question 4", "Question 5", "Question 6", "Question 7", "Question 8", "Question 9", "Full Response"])
+    writer.writerow(["Row Number", "Title", "Question 1", "Question 2", "Question 3", "Question 4", "Question 5", "Question 6", "Question 7", "Question 8", "Question 9", "Question 1A", "Question 1B", "Question 2A", "Question 2B", "Question 3A", "Question 4A", "Question 4B", "Question 5A", "Question 5B", "Question 6A", "Question 6B", "Question 7A", "Question 7B", "Question 8A", "Full Response"])
 
     row_number = 1
     for filename in os.listdir(folder_path):
@@ -50,11 +50,11 @@ with open(csv_file_name, "w", newline="", encoding="utf-8") as f:
                 )
                 response = chatGPTresponse.choices[0].message.content
 
-                question_responses = [""] * 9
+                question_responses = [""] * 23
                 for line in response.split("\n"):
-                    for i in range(1, 10):
+                    for i in range(1, 24):
                         # Use regex to match patterns like "**Answer 8**:" or "Answer 8:"
-                        match = re.search(rf"\bAnswer {i}\b.*?:", line, re.IGNORECASE)
+                        match = re.search(rf"\bAnswer {i}[A-Z]?\b.*?:", line, re.IGNORECASE)
                         if match:
                             # Extract the part after "Answer {i}:"
                             answer = line.split(match.group(0))[1].strip()
