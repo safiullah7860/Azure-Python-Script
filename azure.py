@@ -15,7 +15,7 @@ def pdf_to_text(pdf_path):
             abstractText += page.extract_text()
     return abstractText
 
-folder_path = "full articles"
+folder_path = "test"
 azure_api_key = open("key.txt", "r").read().strip("\n")
 azure_api_endpoint = open("endpoint.txt", "r").read().strip("\n")
 date_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")
@@ -50,17 +50,22 @@ with open(csv_file_name, "w", newline="", encoding="utf-8") as f:
                 )
                 response = chatGPTresponse.choices[0].message.content
 
-                question_responses = [""] * 23
+                answer_keys = [
+                    "Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5", "Answer 6", "Answer 7", "Answer 8", "Answer 9",
+                    "Answer 1A", "Answer 1B", "Answer 2A", "Answer 2B", "Answer 3A",
+                    "Answer 4A", "Answer 4B", "Answer 5A", "Answer 5B", "Answer 6A", "Answer 6B", "Answer 7A", "Answer 7B", "Answer 8A"
+                ]
+                question_responses = ["Not specified"] * len(answer_keys)
+                # Improved extraction logic: robust regex for all answer formats (fix for 1A, 2B, 8A, etc)
+                answer_pattern = re.compile(r"^\s*\**\s*(Answer [1-9][AB]?)\s*:?\**\s*(.*)$", re.IGNORECASE)
                 for line in response.split("\n"):
-                    for i in range(1, 24):
-                        # Use regex to match patterns like "**Answer 8**:" or "Answer 8:"
-                        match = re.search(rf"\bAnswer {i}[A-Z]?\b.*?:", line, re.IGNORECASE)
-                        if match:
-                            # Extract the part after "Answer {i}:"
-                            answer = line.split(match.group(0))[1].strip()
-                            question_responses[i-1] = answer
-                question_responses = [val if val else "Not specified" for val in question_responses]
-
+                    match = answer_pattern.match(line.strip())
+                    if match:
+                        key = match.group(1).strip()
+                        answer = match.group(2).strip()
+                        if key in answer_keys:
+                            idx = answer_keys.index(key)
+                            question_responses[idx] = answer
                 writer.writerow([row_number, title] + question_responses + [response])
                 row_number += 1
 
